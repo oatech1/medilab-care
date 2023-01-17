@@ -1,0 +1,21 @@
+server:
+  port: 5011
+  spring:
+  application:
+    name: medilab-user-notification-services
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+          secure: false
+          autoTLS: false
+          connectiontimeout: 5000
+          timeout:  5000
+    MAIL_HOST: smtp.gmail.com
+    MAIL_USER_NAME: oayodele111@gmail.com
+    MAIL_PASSWORD: uxdalatichkoejwz
+    MAIL_PORT: 465
+    MAIL_PROTOCOL: smtp
